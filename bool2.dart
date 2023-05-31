@@ -4,12 +4,12 @@
 
 //     Returns:
 //         bool
-bool func(int A) {
+bool func(int a) {
   bool x;
-  x = 7 >= 7;
+  x = -6<= 7;
   return (x);
 }
 
 void main() {
-  print(func(7));
+  print(func(-6));
 }
